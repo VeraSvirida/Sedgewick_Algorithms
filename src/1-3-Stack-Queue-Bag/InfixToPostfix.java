@@ -1,7 +1,7 @@
 import java.util.Stack;
 /*
 Test data
-( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )
+Input: ( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )
  */
 public class InfixToPostfix{
     public static void main(String[] args){

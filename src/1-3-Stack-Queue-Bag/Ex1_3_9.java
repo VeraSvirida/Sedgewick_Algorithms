@@ -2,7 +2,7 @@ import java.util.Stack;
 
 /*
 Test data
-1 + 2 ) * 3 - 4 ) * 5 - 6 ) ) )
+Input: 1 + 2 ) * 3 - 4 ) * 5 - 6 ) ) )
  */
 public class Ex1_3_9 {
     public static void main(String[] args) {
