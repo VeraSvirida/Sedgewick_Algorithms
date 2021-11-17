@@ -1,15 +1,20 @@
-import java.util.Stack;
+package com.company.Fundamental.StackQueueBag_1_3;
+
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 /*
 Test data
-Input: ( 1 + ( ( 2 + 3 ) * ( 4 * 5 ) ) )
+Input: 1 + 2 ) * 3 - 4 ) * 5 - 6 ) ) )
  */
-public class InfixToPostfix{
-    public static void main(String[] args){
+public class Ex1_3_9 {
+    public static void main(String[] args) {
         Stack<String> ops = new Stack<String>();
         Stack<String> vals = new Stack<String>();
 
-        while(!StdIn.isEmpty()){
+        while (!StdIn.isEmpty()) {
             String s = StdIn.readString();
+
             if (s.equals("(")) ;
             else if (s.equals("+") ||
                     s.equals("-") ||
@@ -24,13 +29,14 @@ public class InfixToPostfix{
                         op.equals("-") ||
                         op.equals("*") ||
                         op.equals("/"))
-                    v = String.format("%s %s %s ", vals.pop(), v, op);
+                    v = String.format("( %s %s %s )", vals.pop(), op, v);
                 else if (op.equals("sqrt"))
-                    v = String.format("%s %s ", v, op);
+                    v = String.format("( %s %s )", op, v);
 
                 vals.push(v);
             } else vals.push(s);
         }
-    }
 
-        }
+        StdOut.println(vals.pop());
+    }
+}

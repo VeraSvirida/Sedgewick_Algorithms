@@ -1,4 +1,7 @@
-import java.util.Stack;
+package com.company.Fundamental.StackQueueBag_1_3;
+
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 public class Ex1_3_5 {
     public static void main(String[] args){

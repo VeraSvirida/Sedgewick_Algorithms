@@ -1,3 +1,4 @@
+package com.company.Fundamental.StackQueueBag_1_3;
 /*************************************************************************
  *  Compilation:  javac Stack.java
  *  Execution:    java Stack < input.txt
@@ -12,6 +13,8 @@
  *  to be not that or be (2 left on stack)
  *
  *************************************************************************/
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
