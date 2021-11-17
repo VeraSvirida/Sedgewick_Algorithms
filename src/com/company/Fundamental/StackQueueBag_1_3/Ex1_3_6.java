@@ -1,5 +1,6 @@
+package com.company.Fundamental.StackQueueBag_1_3;
 
-import java.util.Stack;
+import edu.princeton.cs.algs4.StdOut;
 
 public class Ex1_3_6{
 //Код меняет порядок элементов в очереди q

@@ -1,8 +1,12 @@
-import java.util.Stack;
+package com.company.Fundamental.StackQueueBag_1_3;
+
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 /*
 Test data
-Input: 1 2 3 + 4 5 * * +
-Output: 101.0
+1 2 3 + 4 5 * * +
+101.0
  */
 public class EvaluatePostfix{
     public static void main(String[] args){

@@ -1,3 +1,4 @@
+package com.company.Fundamental.StackQueueBag_1_3;
 public class FixedCapacityStackOfStrings<Item> {
     private Item[] a; // элементы стека
     private int N; // размер

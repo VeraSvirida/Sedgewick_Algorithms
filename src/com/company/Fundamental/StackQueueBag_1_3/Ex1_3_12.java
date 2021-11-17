@@ -1,3 +1,7 @@
+package com.company.Fundamental.StackQueueBag_1_3;
+
+import edu.princeton.cs.algs4.StdOut;
+
 public class Ex1_3_12 {
     public static Stack<String> copy(Stack<String> stack) {
         Stack<String> tmp = new Stack<String>();
